@@ -3,7 +3,7 @@ name: Deploy GitHub Pages
 on:
   push:
     branches:
-      - git-publish  # Triggers deployment on push to git-publish
+      - main  # Triggers deployment on push to main
 
 jobs:
   build-and-deploy:
