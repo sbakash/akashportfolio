@@ -1,9 +1,9 @@
-name: Deploy GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # Triggers deployment on push to main
+      - main  # Change this to your desired branch if different
 
 jobs:
   build-and-deploy:
@@ -29,4 +29,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-          publish_branch: git-publish  # Specifies the deployment branch
+          publish_branch: git-publish  # Your desired deployment branch
