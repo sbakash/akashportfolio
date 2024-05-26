@@ -4,7 +4,7 @@ const Data =()=>
 {
     return (
         <div className="home_data">
-            <h1 className='Home__title'>Akash SB
+            <h1 className='Home__title'>Akash Shanmugam Boobalan
             <svg
                   width="36"
                   height="36"
@@ -56,7 +56,7 @@ const Data =()=>
                 </svg>
             </h1>
             <h3 className='home_subtitle'>Full-Stack Developer</h3>
-            <p className='home_description'>I'm a full stack developer, A passionated and determined one who is interested in working on developing new applications  
+            <p className='home_description'>I am a passionate and determined Full-Stack Developer, dedicated to creating innovative and efficient applications. With a strong background in both backend and frontend technologies, I am always eager to learn and take on new challenges. Let's connect and build something amazing together!  
   
             </p>
             <a href="#contact" className="buttin button--flex">

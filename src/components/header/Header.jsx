@@ -5,7 +5,7 @@ import "./header.css";
         return (
           <header className="header">
           <nav className= "nav container">
-            <a href="index.html" className = "nav_logo">Akash Sb</a>
+            <a href="index.html" className = "nav_logo">Akash Shanmugam Boobalan</a>
 
             <div className="nav_menu">
                 <ul className="nav_list grid">

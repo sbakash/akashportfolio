@@ -8,14 +8,30 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    const formData = new FormData(form.current);
+    formData.append('to_email', 'sbakash1398@gmail.com');
+
+    const emailData = {
+      user_name: formData.get('name'),
+      user_email: formData.get('email'),
+      message: formData.get('project'),
+      to_email: 'sbakash1398@gmail.com'
+    };
+
     emailjs
-      .sendForm(
-        "service_x1hewh5",
-        "template_2ki8hlo",
-        form.current,
-        "vxDcl4UI2jbOQBn6f"
+      .send(
+        "service_pa62u5o",
+        "template_ehg4jj2",
+        emailData,
+        "R6zpcSWnY0A9bMsKN"
       )
-      e.target.reset()
+      .then((result) => {
+        console.log('Email successfully sent!', result.text);
+      }, (error) => {
+        console.error('There was an error sending the email:', error.text);
+      });
+
+    e.target.reset();
   };
 
   return (
@@ -33,8 +49,6 @@ const Contact = () => {
 
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">sbakash1398@gmail.com</span>
-
-
             </div>
 
             <div className="contact__card">
@@ -51,8 +65,6 @@ const Contact = () => {
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
-
-
           </div>
         </div>
 
@@ -94,7 +106,7 @@ const Contact = () => {
             <button className="button button--flex">
               Send Message
               <svg
-                class="button__icon"
+                className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"

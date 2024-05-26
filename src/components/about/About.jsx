@@ -17,7 +17,7 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            I am currently pursuing my Master's in Computer Science at Clemson University, I have completed my Bachelor's in COmputer Science in the year 2019 and worked as a Backend java developer for the product SalesIq from Zoho 
+          I hold a Master's in Computer Science from Clemson University. My journey in tech includes enhancing the SalesIQ product as a Backend Java Developer at Zoho, where I drove innovations in architecture and functionality. At Clemson, I thrived as a Research Assistant in the Public Health Department, developing a cutting-edge Clinical Decision Support System that streamlines healthcare decision-making. With expertise in Java, PHP, JavaScript, Spring Boot, and MySQL, I excel in full-stack development, system design, and creating robust REST APIs. Passionate about leveraging technology to solve real-world problems, I am always eager to tackle new challenges. 
           </p>
 
           <a download="" href={CV} className="button button--flex">
