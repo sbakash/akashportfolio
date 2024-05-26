@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.610435b2.css",
-    "main.js": "/static/js/main.2d72076e.js",
-    "static/js/453.4e03ba55.chunk.js": "/static/js/453.4e03ba55.chunk.js",
-    "static/media/project1.png": "/static/media/project1.15c3fe885d20089f64aa.png",
-    "static/media/about.jpg": "/static/media/about.a296b8499907534055c7.jpg",
-    "static/media/profile.jpg": "/static/media/profile.984ff146a9b3a6a8654b.jpg",
-    "static/media/sbakashresume.pdf": "/static/media/sbakashresume.d431f5375c908fad7a6a.pdf",
-    "index.html": "/index.html",
-    "main.610435b2.css.map": "/static/css/main.610435b2.css.map",
-    "main.2d72076e.js.map": "/static/js/main.2d72076e.js.map",
-    "453.4e03ba55.chunk.js.map": "/static/js/453.4e03ba55.chunk.js.map"
+    "main.css": "/akashportfolio/static/css/main.edd664a6.css",
+    "main.js": "/akashportfolio/static/js/main.e597ec98.js",
+    "static/js/453.4e03ba55.chunk.js": "/akashportfolio/static/js/453.4e03ba55.chunk.js",
+    "static/media/project1.png": "/akashportfolio/static/media/project1.15c3fe885d20089f64aa.png",
+    "static/media/about.jpg": "/akashportfolio/static/media/about.a296b8499907534055c7.jpg",
+    "static/media/profile.jpg": "/akashportfolio/static/media/profile.984ff146a9b3a6a8654b.jpg",
+    "static/media/sbakashresume.pdf": "/akashportfolio/static/media/sbakashresume.d431f5375c908fad7a6a.pdf",
+    "index.html": "/akashportfolio/index.html",
+    "main.edd664a6.css.map": "/akashportfolio/static/css/main.edd664a6.css.map",
+    "main.e597ec98.js.map": "/akashportfolio/static/js/main.e597ec98.js.map",
+    "453.4e03ba55.chunk.js.map": "/akashportfolio/static/js/453.4e03ba55.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.610435b2.css",
-    "static/js/main.2d72076e.js"
+    "static/css/main.edd664a6.css",
+    "static/js/main.e597ec98.js"
   ]
 }
