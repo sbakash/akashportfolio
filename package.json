@@ -1,5 +1,4 @@
 {
-  "homepage": "http://sbakash.github.io/akashportfolio",
   "name": "akashportfolio",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -b git-publish",  // Updated to deploy to git-publish branch
+    "deploy": "gh-pages -d build -b git-publish",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
